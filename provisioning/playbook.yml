@@ -45,7 +45,7 @@
         proto: tcp
     - name: Change php-fpm username forcefully
       replace:
-        path: /etc/php/8.1/fpm/pool.d/www.conf
+        path: /etc/php/8.2/fpm/pool.d/www.conf
         regexp: 'www-data'
         replace: 'vagrant'
         backup: yes
